@@ -1,0 +1,50 @@
+.homePage {
+  display: flex;
+  height: 100%;
+
+  .textContainer {
+    flex: 3;
+
+    .wrapper {
+      padding-right: 10rem;
+      height: 100%;
+      display: flex;
+      gap: 5rem;
+      flex-direction: column;
+      justify-content: center;
+
+      .title {
+        font-size: 6.4rem;
+      }
+
+      .info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h2 {
+          font-size: 3.6rem;
+        }
+
+        span {
+          font-size: 2rem;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+
+  .imgContainer {
+    flex: 2;
+    background-color: #fcf5f3;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 115%;
+      position: absolute;
+      right: 0;
+    }
+  }
+}
