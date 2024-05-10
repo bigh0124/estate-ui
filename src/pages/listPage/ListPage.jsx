@@ -1,11 +1,10 @@
 import "./listPage.scss";
 import Filter from "../../components/filter/Filter";
 import Card from "../../components/card/Card";
-import { listData } from "../../lib/dummyData";
+import { listData } from "../../lib/dummyData.js";
 
 const ListsPage = () => {
   const lists = listData;
-
   return (
     <div className="list">
       <div className="listContainer">

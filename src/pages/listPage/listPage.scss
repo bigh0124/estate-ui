@@ -4,9 +4,16 @@
 
   .listContainer {
     flex: 3;
+    height: 100%;
 
     .wrapper {
+      height: 100%;
       padding-right: 5rem;
+      display: flex;
+      flex-direction: column;
+      overflow-y: scroll;
+      gap: 5rem;
+      padding-bottom: 5rem;
     }
   }
 
