@@ -67,6 +67,48 @@ nav {
       padding: 1.2rem 2.4rem;
     }
 
+    .user {
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+
+      img {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 2rem;
+      }
+
+      span {
+        @include sm {
+          display: none;
+        }
+      }
+
+      .profileBtn {
+        cursor: pointer;
+        padding: 1.2rem 2.4rem;
+        border: none;
+        background-color: #fece51;
+        position: relative;
+
+        .notification {
+          position: absolute;
+          top: -1rem;
+          right: -1rem;
+          background-color: red;
+          color: #fff;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 2.2rem;
+          width: 2.2rem;
+          border-radius: 50%;
+        }
+      }
+    }
+
     .register {
       background-color: #fece51;
     }
