@@ -55,9 +55,10 @@
 
   .chatContainer {
     flex: 2;
-
+    background-color: #fcf5f3;
     .wrapper {
       padding: 0 2rem;
+      height: 100%;
     }
   }
 }

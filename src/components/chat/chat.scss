@@ -1,0 +1,43 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  h1 {
+    font-weight: 500;
+  }
+
+  .messages {
+    flex: 1;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: 100%;
+    overflow-y: scroll;
+    .message {
+      background-color: #fff;
+      padding: 2rem;
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      border-radius: 0.5rem;
+      cursor: pointer;
+
+      img {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .chatBox {
+    flex: 1;
+  }
+}
